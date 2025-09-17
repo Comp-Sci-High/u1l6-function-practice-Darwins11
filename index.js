@@ -11,27 +11,42 @@
 // 1. Define a function named `divide` that takes two inputs: num1 and num2.
 // 2. Inside the function, return the result of dividing num1 by num2.
 // 3. Call the `divide` function with the inputs 4 and 5, and log the result.
-
-
+function divide(num1,num2){
+   return num1/num2
+}
+let result = divide(4, 5)
+console.log(result)
 
 // TASK 2: Define a regular function to greet a user.
 // 1. Define a function named `greetUser` that takes one input: name.
 // 2. Inside the function, return a greeting string like "Hello, [name]!"
 // 3. Call the `greetUser` function with your name, and log the result.
-
-
+function greetUser(name){
+   return "Hello," + name + "!"
+}
+const greet = greetUser("Darwins")
+console.log(greet)
 
 // TASK 3: Define an arrow function to subtract two numbers.
 // 1. Define an arrow function named `subtract` that takes two inputs: num1 and num2.
 // 2. Inside the arrow function, return the result of subtracting num2 from num1.
 // 3. Call the `subtract` function with the inputs 10 and 3, and log the result.
-
+const subtract = (num1, num2) => {
+   return num1 - num2
+}
+let answer = subtract( 10, 3)
+console.log(answer)
 
 
 // TASK 4: Define an arrow function to calculate the square of a number.
 // 1. Define an arrow function named `square` that takes one input: num.
 // 2. Inside the arrow function, return the result of squaring the number (num * num).
 // 3. Call the `square` function with the argument 6, and log the result.
+const square = (num1) => {
+   return num1 * num1
+}
+let argument = square(6)
+console.log(argument)
 
 /*
    ==== Final Commit Instructions ====
